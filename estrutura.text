@@ -1,0 +1,26 @@
+backend/
+├── src/
+│   ├── config/
+│   │   └── database.js
+│   ├── models/
+│   │   ├── index.js
+│   │   ├── Event.js
+│   │   └── Sale.js
+│   ├── seeders/
+│   │   └── seed.js
+│   ├── routes/
+│   │   ├── eventRoutes.js
+│   │   ├── saleRoutes.js
+│   │   └── seedRoutes.js
+│   ├── controllers/
+│   │   ├── eventController.js
+│   │   └── saleController.js
+│   ├── services/
+│   │   ├── eventService.js
+│   │   └── saleService.js
+│   ├── middleware/
+│   │   └── errorHandler.js
+│   └── app.js
+├── package.json
+├── .env
+└── database.sqlite
